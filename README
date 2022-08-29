@@ -1,0 +1,52 @@
+# Fisa_clienti
+
+## Application description
+
+Fisa_clienti is a clients CLI application written in Python that uses SQLite as a persistence engine.
+
+## Usage
+
+### Setting up the virtual environment
+
+```
+ $> python -m venv .venv
+```
+
+### Activating the virtual environment
+
+#### On Windows based systems
+
+```
+ $> .venv\Scripts\activate
+```
+
+#### On Unix based systems
+
+```
+ $> source .venv/bin/activate
+```
+
+### Installing dependencies
+
+```
+ $> python -m pip install -r requirements.txt
+```
+
+
+### Deactivating the virtual environment
+
+```
+ $> deactivate
+```
+
+## Testing
+
+```
+ &> python -m unittest
+```
+
+## Project structure
+
+### `database.py`
+
+This is the module used to handle SQLite connections and data manipulations for the persistence layer.
